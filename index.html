@@ -1,0 +1,50 @@
+<html>
+  <head>
+    <title>FIT2102 A1 2023</title>
+  </head>
+  <body>
+    <h1>Tetris</h1>
+    <main id="main" class="flex row">
+      <svg id="svgCanvas">
+        <!-- game over text box -->
+        <g id="gameOver" visibility="hidden">
+          <rect x="26" y="120" fill="red" height="48" width="149"></rect>
+          <text x="36" y="150">Game Over</text>
+          <rect x="22" y="200" fill="RED" height="70" width="160"></rect>
+          <text x="30" y="225">Press Space</text>
+          <text x="50" y="260">to Restart</text>
+      </svg>
+      <div id="sideBar" class="flex col">
+        <svg id="svgPreview"></svg>
+        <div id="info" class="flex col">
+          <div class="text">
+            <span class="left">Level: </span>
+            <span class="right" id="levelText">...</span>
+          </div>
+          <div class="text">
+            <span class="left">Row Cleared: </span>
+            <span class="right" id="rowCleared">...</span>
+          </div>
+          <div class="text">
+            <span class="left">Score: </span>
+            <span class="right" id="scoreText">...</span>
+          </div>
+          <div class="text">
+            <span class="left">Highscore: </span>
+            <span class="right" id="highScoreText">...</span>
+          </div>
+          <div class="text">
+            <span class="left">Press Enter For</span>
+            <span class="left">Power-Up: </span>
+            <span class="right" id="powerUp">...</span>
+          </div>
+          <div class="text">
+            <span class="left">Level Increase: </span>
+            <span class="right" id="debuff">...</span>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script type="module" src="./src/main.ts"></script>
+  </body>
+</html>
