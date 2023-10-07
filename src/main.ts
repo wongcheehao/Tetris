@@ -12,7 +12,7 @@ import {startGameRender} from "./view";
 /**
  * Main game function. Initialises all Observable streams
  */
-function main() {
+export function main() {
 
   /**
    * Render the cubes to the canvas. Visibility by default is "hidden"
