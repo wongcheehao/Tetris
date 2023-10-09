@@ -17,7 +17,7 @@ Serve up the App (and ctrl-click the URL that appears in the console)
 > npm run dev
 ```
 
-## Files contains main codes
+## Files containing main codes
 ```
 src/
   main.ts        -- main code logic inc. core game loop
@@ -27,6 +27,7 @@ src/
   state.ts       -- state processing and transformation
   view.ts        -- rendering
 ```
-![Alt Text](Image URL or Path)
+
+(dist/assets/Game.png)
 
 
