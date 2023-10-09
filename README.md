@@ -27,7 +27,6 @@ src/
   state.ts       -- state processing and transformation
   view.ts        -- rendering
 ```
-
-![Game](https://github.com/wongcheehao/Tetris/blob/main/assets/Game.png)
+![Game](https://github.com/wongcheehao/Tetris/blob/main/Game.png)
 
 
