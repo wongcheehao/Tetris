@@ -28,6 +28,6 @@ src/
   view.ts        -- rendering
 ```
 
-(dist/assets/Game.png)
+![Game](dist/assets/Game.png)
 
 
