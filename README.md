@@ -28,6 +28,6 @@ src/
   view.ts        -- rendering
 ```
 
-![Game](https://github.com/wongcheehao/Tetris/blob/main/Game.png)
+![Game](https://github.com/wongcheehao/Tetris/blob/main/assets/Game.png)
 
 
